@@ -1,0 +1,7 @@
+.idea
+__pycache__
+*.pyc
+v
+node_modules
+vendor
+*.sqlite3
