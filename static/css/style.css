@@ -15,6 +15,10 @@
 	:root {
 		font-size: 1em;
 	}
+
+	body {
+		padding: 0 5rem;
+	}
 }
 
 body {
@@ -22,7 +26,6 @@ body {
 	color:#2C2C2C;
 	font-weight:400;
 	margin:1.5rem;
-    padding: 0 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,10 +99,20 @@ header {
 }
 
 .btn-outline {
+    display: inline-block;
+    margin: .5rem 0;
     padding: .5rem 1rem;
+    background-color: white;
+    color: #d20839;
+    border: 1px solid #d20839;
+    border-radius: .25rem;
+    text-transform: uppercase;
+}
+
+.btn-outline:hover {
     background-color: #d20839;
     color: white;
-    text-transform: uppercase;
+    transition: background-color .2s linear;
 }
 
 strong {
