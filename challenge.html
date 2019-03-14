@@ -16,75 +16,83 @@
 </head>
 <body>
 <header>
-        <div class="logo"><a href="index.html"><img src="static/img/asiance-logo-colors-256.png"/></a></div>
-        <h1 class="subtitle">ASIANCE coding challenge - Front/backend developer</h1>
-        <a class="btn-outline" href="index.html">Go back</a>
+    <div class="logo"><a href="index.html"><img src="static/img/asiance-logo-colors-256.png"/></a></div>
+    <h1 class="subtitle">ASIANCE coding challenge</h1>
+    <a class="btn-outline" href="index.html">Go back</a>
 
-    </header>
+</header>
 <section>
 
     <p>
-        <p>Time: about 60 minutes per part recommended.</p>
-
-        <p>Recreate the following reference image in HTML and CSS (The design should be a minimum responsive).</p>
-
-        <h3>Requirements</h3>
-
-        <p>An author is defined as follows:  </p>
-        <ul>
-            <li>name</li>
-            <li>role</li>
-            <li>avatar</li>
-            <li>location</li>
-            <li>created_at</li>
-            <li>updated_at</li>
-        </ul>
-        <p>A post is defined as follow:  </p>
-        <ul>
-            <li>author</li>
-            <li>title</li>
-            <li>body</li>
-            <li>tags (can be empty)</li>
-            <li>image_url</li>
-            <li>created_at</li>
-            <li>updated_at</li>
-        </ul>
-
-        If you apply for the frontend position only please use these 2 JSON files, otherwise pull the data from your
-        backend<br>
-        <u>source:</u> <a href="resources/authors.json" target="_blank">authors</a> and <a href="resources/posts.json"
-                                                                                    target="_blank">posts</a>.</p>
-
-        <p>You can use a framework.</p>
+    <p>Time: about 3h.</p>
 
 
-        <h3>Optional</h3>
 
-        <ul>
-            <li>About us page (Free theme)</li>
-            <li>Functional pagination</li>
-        </ul>
 
-        <h3>Programming Language</h3>
+    <h1>Part I: Create a REST API</h1>
+    <hr>
+    <p>Design a REST API that provides author's posts</p>
 
-        <p>Feel free to choose the one you prefer (Asiance is mainly using PHP, JavaScript and Python).</p>
-        <a href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400|Squada+One|Staatliches" target="_blank">Get the fonts</a>
+    <h3>Requirements</h3>
 
-        <p><a href="static/img/asiance_test_sample.png" target="_blank"><img src="static/img/asiance_test_sample.png"/></a></p>
+    <p>An author is defined as follows: </p>
+    <ul>
+        <li>name</li>
+        <li>role</li>
+        <li>avatar</li>
+        <li>location</li>
+        <li>created_at</li>
+        <li>updated_at</li>
+    </ul>
+    <p>A post is defined as follow: </p>
+    <ul>
+        <li>author</li>
+        <li>title</li>
+        <li>body</li>
+        <li>tags (can be empty)</li>
+        <li>image_url</li>
+        <li>created_at</li>
+        <li>updated_at</li>
+    </ul>
 
-        <p>*Click the image for full-size version.</p>
+    <h1>Part II: Create a webpage</h1>
+    <hr>
+    <h3>Requirements</h3>
+    <p>Retrieve a list of posts from the API (<span style="color:#d20839;">in JavaScript</span>) created in part I, and
+        recreate the following reference image in HTML and CSS (The design should be a minimum responsive).</p>
 
-        <hr/>
+    <h3>Optional requirements</h3>
 
-        <p>Feel free to use the internet to look up any coding references</p>
+    <ul>
+        <li>Functional pagination</li>
+    </ul>
 
-    <p>When you have finished the test send your result to <a href="mailto:recruit@asiance.com">recruit@asiance.com.</a></p>
 
-    </section>
+    <a href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400|Squada+One|Staatliches" target="_blank">Get
+        the fonts</a>
 
-    <hr/>
+    <p><a href="static/img/asiance_test_sample.png" target="_blank"><img src="static/img/asiance_test_sample.png"/></a>
+    </p>
 
-    <footer>&copy; 2004 - 2019 <a href="https://www.asiance.com" target="_blank">Asiance</a>. All rights reserved.</footer>
+    <p>*Click the image for full-size version.</p>
+
+
+    <h1>The rules</h1>
+
+    <ul>
+        <li>You can use the language and technology of your choosing. It's OK to try something new (tell us if you do), but
+        feel free to use something you're comfortable with. We don't care if you use something we don't; the goal here
+        is not to validate your knowledge of a particular technology</li>
+        <li>End result should be deployed on a public Cloud (Heroku, AWS etc. all have free tiers you can use).</li>
+        <li>End result should be versioned on a git repository. Send us the link to <a href="mailto:recruit@asiance.com">recruit@asiance.com</a></li>
+    </ul>
+    </p>
+
+</section>
+
+<hr/>
+
+<footer>&copy; 2004 - 2019 <a href="https://www.asiance.com" target="_blank">Asiance</a>. All rights reserved.</footer>
 </div>
 </body>
 </html>
